@@ -1,0 +1,31 @@
+stages:
+  - test
+  - staging
+  - new
+  - deploy
+
+test:
+  stage: test
+  script:
+    - npm install
+    - npm test
+
+new:
+  stage: new
+  script:
+    - npm install
+    - npm run build
+    - npm run deploy
+  when: manual
+  variables:
+    RELEASE: new
+
+staging:
+  stage: staging
+  script:
+    - npm install
+    - npm run build:stage
+    - npm run deploy:stage
+  when: manual
+  variables:
+    RELEASE: new

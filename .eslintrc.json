@@ -1,0 +1,18 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["eslint:recommended", "plugin:react/recommended", "airbnb", "prettier"],
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es6": true
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "no-restricted-globals": ["error"],
+    "react/no-did-update-set-state": "off",
+    "no-underscore-dangle": "off",
+    "linebreak-style": ["off", "windows"],
+    "import/no-cycle": "off"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_from": "git+https://gitlab-ci-token:Ez7WfAsrXg1GKaAjRAHH@gitlab.com/conpass/conpass-regex.git",
+  "_id": "conpass-regex@0.0.4",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/conpass-regex",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "conpass-regex@git+https://gitlab-ci-token:Ez7WfAsrXg1GKaAjRAHH@gitlab.com/conpass/conpass-regex.git",
+    "name": "conpass-regex",
+    "escapedName": "conpass-regex",
+    "rawSpec": "git+https://gitlab-ci-token:Ez7WfAsrXg1GKaAjRAHH@gitlab.com/conpass/conpass-regex.git",
+    "saveSpec": "git+https://gitlab-ci-token:Ez7WfAsrXg1GKaAjRAHH@gitlab.com/conpass/conpass-regex.git",
+    "fetchSpec": "https://gitlab-ci-token:Ez7WfAsrXg1GKaAjRAHH@gitlab.com/conpass/conpass-regex.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/",
+    "/conpass-models"
+  ],
+  "_resolved": "git+https://gitlab-ci-token:Ez7WfAsrXg1GKaAjRAHH@gitlab.com/conpass/conpass-regex.git#0d0ad0292dca1f494beebc5e0a6364ff7fc9e863",
+  "_spec": "conpass-regex@git+https://gitlab-ci-token:Ez7WfAsrXg1GKaAjRAHH@gitlab.com/conpass/conpass-regex.git",
+  "_where": "D:\\Projects\\conpass\\new-pixel",
+  "author": {
+    "name": "Alexandre Tavares"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "devDependencies": {
+    "mocha": "^3.4.1"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "conpass-regex",
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "0.0.4"
+}

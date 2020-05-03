@@ -1,0 +1,12 @@
+{
+  "database": {
+    "driver": "mongodb",
+    "host": "localhost",
+    "database": "conpass",
+    "api": "mongodb://localhost/conpass",
+    "analitics": "mongodb://localhost/conpass"
+  },
+  "rollbar": {
+    "token":  "6772f184e0c04975bdec830412fcc536"
+  }
+}
